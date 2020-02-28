@@ -28,7 +28,10 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/characters">
+            <Route exact path="/characters">
+              <CharacterList data={data} />
+            </Route>
+            <Route path="/characters/search/:searchTerm">
               <CharacterList data={data} />
             </Route>
             <Redirect to="/" />
