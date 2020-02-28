@@ -1,11 +1,5 @@
 const data = [
   {
-    info: {
-      count: 493,
-      pages: 25,
-      next: "https://rickandmortyapi.com/api/character/?page=2",
-      prev: ""
-    },
     results: [
       {
         id: 1,
@@ -522,12 +516,6 @@ const data = [
     ]
   },
   {
-    info: {
-      count: 493,
-      pages: 25,
-      next: "https://rickandmortyapi.com/api/character/?page=3",
-      prev: "https://rickandmortyapi.com/api/character/?page=1"
-    },
     results: [
       {
         id: 21,
@@ -930,12 +918,6 @@ const data = [
     ]
   },
   {
-    info: {
-      count: 493,
-      pages: 25,
-      next: "https://rickandmortyapi.com/api/character/?page=4",
-      prev: "https://rickandmortyapi.com/api/character/?page=2"
-    },
     results: [
       {
         id: 41,
@@ -1308,12 +1290,6 @@ const data = [
     ]
   },
   {
-    info: {
-      count: 493,
-      pages: 25,
-      next: "https://rickandmortyapi.com/api/character/?page=5",
-      prev: "https://rickandmortyapi.com/api/character/?page=3"
-    },
     results: [
       {
         id: 61,
@@ -1679,12 +1655,6 @@ const data = [
     ]
   },
   {
-    info: {
-      count: 493,
-      pages: 25,
-      next: "https://rickandmortyapi.com/api/character/?page=6",
-      prev: "https://rickandmortyapi.com/api/character/?page=4"
-    },
     results: [
       {
         id: 81,
