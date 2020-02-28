@@ -1,0 +1,9 @@
+div.character-list {
+  h2 {
+    text-align: center;
+  }
+  > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
