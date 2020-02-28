@@ -13,11 +13,11 @@ import Home from "./components/home";
 import CharacterList from "./components/character-list";
 
 function App() {
-  useEffect(() => {
-    // const url = `https://cors-anywhere.herokuapp.com/https://rickandmortyapi.com/api/character/`;
-    // axios.get(url).then(response => console.log(response));
-    console.log(data);
-  }, []);
+  // useEffect(() => {
+  //   const url = `https://cors-anywhere.herokuapp.com/https://rickandmortyapi.com/api/character/`;
+  //   axios.get(url).then(response => console.log(response));
+  //   console.log(data);
+  // }, []);
 
   return (
     <div id="app">
