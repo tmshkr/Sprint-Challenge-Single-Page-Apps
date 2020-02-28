@@ -1,0 +1,14 @@
+div.character-card {
+  section.info {
+    margin: 1rem 0;
+    font-family: monospace;
+    label {
+      font-weight: bold;
+      display: block;
+      span {
+        font-weight: normal;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+}
