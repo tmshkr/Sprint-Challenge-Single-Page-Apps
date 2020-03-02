@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function WelcomePage() {
+function Home() {
   return (
-    <section className="welcome-page">
+    <section className="home">
       <header>
         <h1>Welcome to the ultimate fan site!</h1>
         <img
@@ -14,3 +14,5 @@ export default function WelcomePage() {
     </section>
   );
 }
+
+export default Home;

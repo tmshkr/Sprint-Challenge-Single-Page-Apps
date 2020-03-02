@@ -1,0 +1,30 @@
+div.character-list {
+  h2 {
+    text-align: center;
+  }
+  > div.list {
+    display: grid;
+    grid-gap: 1rem;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  ul.pagination {
+    margin: 3rem auto;
+    user-select: none;
+    a {
+      cursor: pointer;
+      &:hover {
+        color: #007bff;
+      }
+    }
+    li.break {
+      display: none;
+    }
+  }
+}

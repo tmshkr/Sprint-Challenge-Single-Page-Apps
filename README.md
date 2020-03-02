@@ -25,7 +25,10 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [x]  Explain benefit(s) using `client-side routing`?
+
+Client-side routing involves sending an application to the web browser on the initial page load, which then sends network requests for data as it is needed, without reloading the page. The web app updates the browser's location as it navigates between different pages, with no page reloading. This might require more data to be sent to the client on the initial load, but subsequent navigation then requires less resources from the network, and the user experience is improved with less wait-time when navigating between pages. 
+
 
 > Answer:
 
@@ -33,15 +36,15 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
-- [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ]  Implement the project on this branch, committing changes regularly.
-- [ ]  Push commits: `git push origin <firstName-lastName>`.
-- [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ]  **RUN** `yarn start` or `npm start` to fire up your React application.
+- [x]  Create a forked copy of this project.
+- [x]  Add TL as collaborator on GitHub.
+- [x]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [x]  Implement the project on this branch, committing changes regularly.
+- [x]  Push commits: `git push origin <firstName-lastName>`.
+- [x]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [x]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [x]  **RUN** `yarn start` or `npm start` to fire up your React application.
 
 ### Exceeded rate limits?
 
@@ -64,26 +67,26 @@ Construct a Single Page Application with React.
 **Your finished project must include all of the following requirements:**
 
 _Display Data from a Server API_
-- [ ]  Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://cors-anywhere.herokuapp.com/https://rickandmortyapi.com/api/character/`* and render them to the screen. _NOTE: https://cors-anywhere.herokuapp.com/ in front of the actual URL just let's us get around CORS errors that happen on the server._
-- [ ]  You must display at least one element for each character.
+- [x]  Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://cors-anywhere.herokuapp.com/https://rickandmortyapi.com/api/character/`* and render them to the screen. _NOTE: https://cors-anywhere.herokuapp.com/ in front of the actual URL just let's us get around CORS errors that happen on the server._
+- [x]  You must display at least one element for each character.
 
 _Add a Router to this application using [React Router](https://reacttraining.com/react-router/web/guides/quick-start)._
 
-- [ ]  Hook up the Welcome page(Home page) and a Characters page with React Router.
-- [ ]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: [s](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
+- [x]  Hook up the Welcome page(Home page) and a Characters page with React Router.
+- [x]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: [s](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
 
 _Add 'Search by Name' feature._
 
-- [ ]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
-- [ ]  Create a search form that will filter through the data displayed in the character list.
+- [x]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
+- [x]  Create a search form that will filter through the data displayed in the character list.
 
 ### **Required best practices:**
 
-- [ ]  Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ]  Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ]  Consistent quotation usage.
-- [ ]  Spell-check.
-- [ ]  Schedule time to review, refine and reassess your work.
+- [x]  Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x]  Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x]  Consistent quotation usage.
+- [x]  Spell-check.
+- [x]  Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
@@ -109,7 +112,7 @@ Complete search component to your list views.
 - [ ]  Add error handling for all async (axios/AJAX) calls. (Including some styled UI.)
 - [ ]  Add a "details view" and route to show more details for each type of record. (Hint: Look into route parameters or nested routes.)
     - [ ]  Similar to the "details view" now with a UI twist: use a [modal](https://react.semantic-ui.com/modules/modal/#variations-size) component to show item view. (If you can, build [modal with routes](https://codesandbox.io/s/react-router-modal-gallery-classes-example-z98l5).)
-- [ ]  Add [paging support](https://react.semantic-ui.com/addons/pagination/#types-pagination) (next/previous links.)
+- [x]  Add [paging support](https://react.semantic-ui.com/addons/pagination/#types-pagination) (next/previous links.)
 - [ ]  Refactor to use as few Components as possible - while still readable to a React Dev. (Hint: research these patterns: HoC, render props, FaaC.)
 - [ ]  Add additional fields to search form. They are unique for each endpoint. See **[Available parameters**.](https://rickandmortyapi.com/documentation/#filter-characters), etc..
 - [ ]  Use the [GraphQL Endpoint](https://rickandmortyapi.com/documentation/#graphql) with multiple search fields.
@@ -120,9 +123,9 @@ Complete search component to your list views.
 
 > Follow these steps to complete your project:
 
-- [ ]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
-- [ ]  Add your TL as a Reviewer on the Pull Request.
-- [ ]  TL then will count the HW as done by merging the branch into master.
+- [x]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
+- [x]  Add your TL as a Reviewer on the Pull Request.
+- [x]  TL then will count the HW as done by merging the branch into master.
 
 <!-- TLs: NOTE: use resources to coach, or share over zoom - avoid sharing entire solution folder. Share preview links if available. -->
 
